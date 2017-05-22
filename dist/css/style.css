@@ -1,0 +1,104 @@
+body {
+    background-color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:hidden;
+    margin:0px; padding:0px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+container {
+    width:800px; height:600px;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+}
+
+ocean {
+    background-image: url(../images/game_background.png);
+    background-repeat: no-repeat;
+    width: 800px; height: 600px;
+}
+
+fish {
+    background-image: url(../images/fish.png);
+    width:40px; height: 40px;
+}
+
+fish2 {
+    background-image: url(../images/fish2.png);
+    width:32px; height: 32px;
+}
+
+fish3 {
+    background-image: url(../images/fish3.png);
+    width:30px; height: 30px;
+}
+
+cash {
+    color:white;
+    font-size : 22px;
+    padding:20px;
+}
+
+coin {
+    background-image: url(../images/coin.png);
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+bait{
+    width:5px;
+    height:5px;
+    background-color: sandybrown;
+}
+
+button1{
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    padding: 10px;
+    z-index: 3;
+    border-radius: 100px;
+    text-align: center;
+}
+
+button1:hover{
+    cursor: pointer;
+}
+
+button2{
+    width: 75px;
+    height: 75px;
+    background-color: green;
+    padding: 10px;
+    z-index: 3;
+    border-radius: 100px;
+    text-align: center;
+}
+
+button2:hover{
+    cursor: pointer;
+}
+
+button3{
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+    padding: 10px;
+    z-index: 3;
+    border-radius: 100px;
+    text-align: center;
+}
+
+button3:hover{
+    cursor: pointer;
+}
