@@ -1,5 +1,5 @@
-/// <reference path="gameObject.ts" />
-/// <reference path="fish.ts" />
+/// <reference path="../gameObject.ts" />
+/// <reference path="../fishes/fish.ts" />
 
 
 class Coin extends GameObject {
@@ -33,9 +33,9 @@ class Coin extends GameObject {
             let timeOut = setTimeout(() => {
                 Game.getInstance().ocean.removeChild(this.div);
             }, 500);
+        } else {
+            // Adding this else statement removed a weird error I was getting in my console
+            this.div.style.transform ="translate("+this.x+"px,"+this.y+"px)";
         }
-        this.div.style.transform ="translate("+this.x+"px,"+this.y+"px)";
-
     }
-
 }
