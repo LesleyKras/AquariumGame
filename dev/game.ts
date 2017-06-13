@@ -1,4 +1,4 @@
-/// <reference path="fish.ts" />
+/// <reference path="fishes/fish.ts" />
 
 
 class Game {
